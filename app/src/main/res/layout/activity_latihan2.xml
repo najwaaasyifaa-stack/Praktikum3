@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20sp"
+    android:orientation="vertical"
+    tools:context=".Latihan2">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Latihan 2 - Mengubah warna"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilihan"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/rbBiru"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Biru" />
+
+        <RadioButton
+            android:id="@+id/rbMerah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Merah" />
+
+        <RadioButton
+            android:id="@+id/rbHijau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hijau" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btProsesLatihanWarna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Proses"
+        app:cornerRadius="20dp" />
+
+</LinearLayout>
